@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Chiki ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =================================================
+         PAGE 1 : GIFT
+    ================================================== -->
+
+    <section id="giftPage" class="page active">
+
+        <img
+            src="images/chi.jpg"
+            class="bgImage"
+            alt="Birthday Background">
+
+        <div class="overlay"></div>
+
+        <div id="giftBox">
+
+            <img
+                src="images/gift.png"
+                id="giftImage"
+                alt="Gift">
+
+            <h2 class="giftText">
+                🎁 Tap the Gift to Open 🎁
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         PAGE 2 : COUNTDOWN
+    ================================================== -->
+
+    <section id="countdownPage" class="page">
+
+        <div id="countNumber">3</div>
+
+    </section>
+
+
+    <!-- =================================================
+         PAGE 3 : BIRTHDAY SURPRISE
+    ================================================== -->
+
+    <section id="surprisePage" class="page">
+
+        <!-- Background -->
+
+        <img
+            src="images/sur.jpg"
+            class="bgImage"
+            alt="Birthday Background">
+
+        <div class="overlay"></div>
+
+
+        <!-- Celebration Effects -->
+
+        <div id="fireworks"></div>
+
+        <div id="balloons"></div>
+
+        <div id="hearts"></div>
+
+        <div id="stars"></div>
+
+
+        <!-- Main Birthday Content -->
+
+        <div class="content">
+
+            <h1 class="title">
+              
+            </h1>
+
+            <div class="cake">
+                           </div>
+
+            <h2 id="typingText"></h2>
+
+        </div>
+
+
+        <!-- =================================================
+             LITTLE IMAGE
+             Appears after 3 seconds
+        ================================================== -->
+
+        <div id="photoButton">
+
+            <img
+                src="images/little.jpg"
+                alt="Open Letter">
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         LETTER IMAGE VIEWER
+    ================================================== -->
+
+    <div id="letterViewer">
+
+        <button
+            id="closeLetter"
+            aria-label="Close letter">
+            ✕
+        </button>
+
+        <img
+            id="letterImage"
+            src="images/letter.jpg"
+            alt="Letter for Chiki">
+
+    </div>
+
+
+    <!-- =================================================
+         MUSIC
+    ================================================== -->
+
+    <audio id="music" loop>
+
+        <source
+            src="music/birthday.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
